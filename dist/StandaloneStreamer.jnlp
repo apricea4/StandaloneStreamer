@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="StandaloneStreamer.jnlp">
+  <information>
+    <title>StandaloneStreamer</title>
+    <vendor>Alexander Timothy</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="StandaloneStreamer.jar" size="4128983" download="eager" />
+    <jar href="lib\bcprov-jdk15on-159.jar" size="4092400" download="eager" />
+    <jar href="lib\jna-4.1.0.jar" size="914597" download="eager" />
+    <jar href="lib\jna-platform-4.1.0.jar" size="1464423" download="eager" />
+    <jar href="lib\slf4j-api-1.7.10.jar" size="32119" download="eager" />
+    <jar href="lib\sshj-0.8.1.jar" size="349526" download="eager" />
+    <jar href="lib\vlcj-3.10.1.jar" size="404748" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="StandaloneStreamer" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="standalonestreamer.StandaloneStreamer"  name="StandaloneStreamer" />
+  <update check="always"/>
+</jnlp>
